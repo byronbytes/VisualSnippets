@@ -1,4 +1,4 @@
-  //  NOT MY CODE. Originally found on StackOverflow (Dont know where anymore)
+// NOT MY CODE. Originally found on StackOverflow (Dont know where anymore)
  
   // First part of the code
   
