@@ -20,4 +20,4 @@ Imports System.Runtime.InteropServices
             ReleaseCapture()
             SendMessage(Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0)
         End If
-    End Sub
+   
