@@ -1,5 +1,5 @@
 // Found on StackOverflow
-//* Replace the panel2_MouseDown with the mousedown in your project. (MUST BE MOUSEDOWN)
+//* Replace the panel2_MouseDown with your own class, NOTE: Must be a MouseDown event.
 
  public const int WM_NCLBUTTONDOWN = 0xA1;
         public const int HT_CAPTION = 0x2;
