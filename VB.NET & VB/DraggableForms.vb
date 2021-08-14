@@ -1,5 +1,9 @@
 ' *Replace the Panel1_MouseDown with your own class, NOTE: Must be a MouseDown event.
-    
+' Imports Required: System.Runtime.InteropServices
+
+
+Imports System.Runtime.InteropServices
+
     Public Const WM_NCLBUTTONDOWN As Integer = &HA1
     Public Const HT_CAPTION As Integer = &H2
 
