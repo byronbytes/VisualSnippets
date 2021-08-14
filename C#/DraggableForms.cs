@@ -1,4 +1,4 @@
-// Found on StackOverflow
+// NOT MY CODE. Originally found on StackOverflow (Dont know where anymore)
 // Imports Required: System.Runtime.InteropServices
 //* Replace the panel2_MouseDown with your own class, NOTE: Must be a MouseDown event.
 
