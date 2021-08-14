@@ -1,5 +1,9 @@
 // Found on StackOverflow
+// Imports Required: System.Runtime.InteropServices
 //* Replace the panel2_MouseDown with your own class, NOTE: Must be a MouseDown event.
+
+
+using System.Runtime.InteropServices;
 
  public const int WM_NCLBUTTONDOWN = 0xA1;
         public const int HT_CAPTION = 0x2;
