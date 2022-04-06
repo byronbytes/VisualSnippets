@@ -1,7 +1,8 @@
-//Note: FullFormName is the name of the form that is defined (aka Form1 or whatever you named it to) CustomFormName can be anything.
+//What this does is initializes a new form and opens it, you can access anything from these forms if you have the modifier to public (ex. labels)
 
- FullFormName CustomFormName = new FullFormName(); // Initializes the form.
-            CustomFormName.Show(); // Shows the form.
+// InitName can be any custom name you want, but the FullFormName needs to be the original name of the form (ex. Form1)
+ FullFormName InitName = new FullFormName(); // Initializes the form.
+ InitName.Show(); // Shows the form.
             
             
       
