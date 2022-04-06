@@ -1,6 +1,4 @@
-// NOT MY CODE. Originally found on StackOverflow (Dont know where anymore)
- 
-  // First part of the code
+// What this does is imports the ShellDLL to give it the access to empty the recycle bin.
   
   [DllImport("Shell32.dll")]
         static extern int SHEmptyRecycleBin(IntPtr hwnd, string pszRootPath, RecycleFlag dwFlags);
@@ -13,6 +11,6 @@
 
 
 
-// And then on an event, paste this and it will clean your recycle bin.
+// In any event, you can paste this code for a silent recycle bin deletion.
 
  SHEmptyRecycleBin(IntPtr.Zero, null, RecycleFlag.SHERB_NOSOUND | RecycleFlag.SHERB_NOCONFIRMATION);
